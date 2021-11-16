@@ -1,0 +1,160 @@
+{\rtf1\ansi\ansicpg1250\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 ben@ben-VirtualBox:~/Desktop$ sudo apt install build-essential cmake git libgmp3-dev libprocps-dev python3-markdown libboost-program-options-dev libssl-dev python3 pkg-config\
+[sudo] password for ben: \
+Reading package lists... Done\
+Building dependency tree       \
+Reading state information... Done\
+pkg-config is already the newest version (0.29.1-0ubuntu4).\
+pkg-config set to manually installed.\
+python3 is already the newest version (3.8.2-0ubuntu2).\
+python3 set to manually installed.\
+build-essential is already the newest version (12.8ubuntu1.1).\
+build-essential set to manually installed.\
+libssl-dev is already the newest version (1.1.1f-1ubuntu2.8).\
+libssl-dev set to manually installed.\
+The following additional packages will be installed:\
+  cmake-data git-man libboost-program-options1.71-dev\
+  libboost-program-options1.71.0 libboost1.71-dev libcurl4 liberror-perl\
+  libgmp-dev libgmpxx4ldbl libjsoncpp1 librhash0 python3-packaging\
+  python3-pygments python3-pyparsing\
+Suggested packages:\
+  cmake-doc ninja-build git-daemon-run | git-daemon-sysvinit git-doc git-el\
+  git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn libboost1.71-doc\
+  libboost-atomic1.71-dev libboost-chrono1.71-dev libboost-container1.71-dev\
+  libboost-context1.71-dev libboost-contract1.71-dev\
+  libboost-coroutine1.71-dev libboost-date-time1.71-dev\
+  libboost-exception1.71-dev libboost-fiber1.71-dev\
+  libboost-filesystem1.71-dev libboost-graph1.71-dev\
+  libboost-graph-parallel1.71-dev libboost-iostreams1.71-dev\
+  libboost-locale1.71-dev libboost-log1.71-dev libboost-math1.71-dev\
+  libboost-mpi1.71-dev libboost-mpi-python1.71-dev libboost-numpy1.71-dev\
+  libboost-python1.71-dev libboost-random1.71-dev libboost-regex1.71-dev\
+  libboost-serialization1.71-dev libboost-stacktrace1.71-dev\
+  libboost-system1.71-dev libboost-test1.71-dev libboost-thread1.71-dev\
+  libboost-timer1.71-dev libboost-type-erasure1.71-dev libboost-wave1.71-dev\
+  libboost1.71-tools-dev libmpfrc++-dev libntl-dev gmp-doc libgmp10-doc\
+  libmpfr-dev python-markdown-doc python-pygments-doc ttf-bitstream-vera\
+  python-pyparsing-doc\
+The following NEW packages will be installed:\
+  cmake cmake-data git git-man libboost-program-options-dev\
+  libboost-program-options1.71-dev libboost-program-options1.71.0\
+  libboost1.71-dev libcurl4 liberror-perl libgmp-dev libgmp3-dev libgmpxx4ldbl\
+  libjsoncpp1 libprocps-dev librhash0 python3-markdown python3-packaging\
+  python3-pygments python3-pyparsing\
+0 upgraded, 20 newly installed, 0 to remove and 12 not upgraded.\
+Need to get 21,8 MB/22,1 MB of archives.\
+After this operation, 218 MB of additional disk space will be used.\
+Do you want to continue? [Y/n] y\
+Get:1 http://it.archive.ubuntu.com/ubuntu focal/main amd64 cmake-data all 3.16.3-1ubuntu1 [1.612 kB]\
+Get:2 http://it.archive.ubuntu.com/ubuntu focal/main amd64 libjsoncpp1 amd64 1.7.4-3.1ubuntu2 [75,6 kB]\
+Get:3 http://it.archive.ubuntu.com/ubuntu focal/main amd64 librhash0 amd64 1.3.9-1 [113 kB]\
+Get:4 http://it.archive.ubuntu.com/ubuntu focal/main amd64 cmake amd64 3.16.3-1ubuntu1 [3.669 kB]\
+Get:5 http://it.archive.ubuntu.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26,5 kB]\
+Get:6 http://it.archive.ubuntu.com/ubuntu focal-updates/main amd64 git-man all 1:2.25.1-1ubuntu3.2 [884 kB]\
+Get:7 http://it.archive.ubuntu.com/ubuntu focal-updates/main amd64 git amd64 1:2.25.1-1ubuntu3.2 [4.554 kB]\
+Get:8 http://it.archive.ubuntu.com/ubuntu focal/main amd64 libboost1.71-dev amd64 1.71.0-6ubuntu6 [9.068 kB]\
+Get:9 http://it.archive.ubuntu.com/ubuntu focal/main amd64 libboost-program-options1.71.0 amd64 1.71.0-6ubuntu6 [342 kB]\
+Get:10 http://it.archive.ubuntu.com/ubuntu focal/main amd64 libboost-program-options1.71-dev amd64 1.71.0-6ubuntu6 [374 kB]\
+Get:11 http://it.archive.ubuntu.com/ubuntu focal/main amd64 libboost-program-options-dev amd64 1.71.0.0ubuntu2 [3.408 B]\
+Get:12 http://it.archive.ubuntu.com/ubuntu focal/main amd64 libgmpxx4ldbl amd64 2:6.2.0+dfsg-4 [9.128 B]\
+Get:13 http://it.archive.ubuntu.com/ubuntu focal/main amd64 libgmp-dev amd64 2:6.2.0+dfsg-4 [320 kB]\
+Get:14 http://it.archive.ubuntu.com/ubuntu focal/main amd64 libgmp3-dev amd64 2:6.2.0+dfsg-4 [2.012 B]\
+Get:15 http://it.archive.ubuntu.com/ubuntu focal-updates/main amd64 libprocps-dev amd64 2:3.3.16-1ubuntu2.3 [43,0 kB]\
+Get:16 http://it.archive.ubuntu.com/ubuntu focal/main amd64 python3-pyparsing all 2.4.6-1 [61,3 kB]\
+Get:17 http://it.archive.ubuntu.com/ubuntu focal/main amd64 python3-packaging all 20.3-1 [26,8 kB]\
+Get:18 http://it.archive.ubuntu.com/ubuntu focal/main amd64 python3-markdown all 3.1.1-3 [59,3 kB]\
+Get:19 http://it.archive.ubuntu.com/ubuntu focal-updates/main amd64 python3-pygments all 2.3.1+dfsg-1ubuntu2.2 [579 kB]\
+Fetched 21,8 MB in 3s (8.411 kB/s)     \
+Selecting previously unselected package cmake-data.\
+(Reading database ... 178750 files and directories currently installed.)\
+Preparing to unpack .../00-cmake-data_3.16.3-1ubuntu1_all.deb ...\
+Unpacking cmake-data (3.16.3-1ubuntu1) ...\
+Selecting previously unselected package libcurl4:amd64.\
+Preparing to unpack .../01-libcurl4_7.68.0-1ubuntu2.7_amd64.deb ...\
+Unpacking libcurl4:amd64 (7.68.0-1ubuntu2.7) ...\
+Selecting previously unselected package libjsoncpp1:amd64.\
+Preparing to unpack .../02-libjsoncpp1_1.7.4-3.1ubuntu2_amd64.deb ...\
+Unpacking libjsoncpp1:amd64 (1.7.4-3.1ubuntu2) ...\
+Selecting previously unselected package librhash0:amd64.\
+Preparing to unpack .../03-librhash0_1.3.9-1_amd64.deb ...\
+Unpacking librhash0:amd64 (1.3.9-1) ...\
+Selecting previously unselected package cmake.\
+Preparing to unpack .../04-cmake_3.16.3-1ubuntu1_amd64.deb ...\
+Unpacking cmake (3.16.3-1ubuntu1) ...\
+Selecting previously unselected package liberror-perl.\
+Preparing to unpack .../05-liberror-perl_0.17029-1_all.deb ...\
+Unpacking liberror-perl (0.17029-1) ...\
+Selecting previously unselected package git-man.\
+Preparing to unpack .../06-git-man_1%3a2.25.1-1ubuntu3.2_all.deb ...\
+Unpacking git-man (1:2.25.1-1ubuntu3.2) ...\
+Selecting previously unselected package git.\
+Preparing to unpack .../07-git_1%3a2.25.1-1ubuntu3.2_amd64.deb ...\
+Unpacking git (1:2.25.1-1ubuntu3.2) ...\
+Selecting previously unselected package libboost1.71-dev:amd64.\
+Preparing to unpack .../08-libboost1.71-dev_1.71.0-6ubuntu6_amd64.deb ...\
+Unpacking libboost1.71-dev:amd64 (1.71.0-6ubuntu6) ...\
+Selecting previously unselected package libboost-program-options1.71.0:amd64.\
+Preparing to unpack .../09-libboost-program-options1.71.0_1.71.0-6ubuntu6_amd64.\
+deb ...\
+Unpacking libboost-program-options1.71.0:amd64 (1.71.0-6ubuntu6) ...\
+Selecting previously unselected package libboost-program-options1.71-dev:amd64.\
+Preparing to unpack .../10-libboost-program-options1.71-dev_1.71.0-6ubuntu6_amd6\
+4.deb ...\
+Unpacking libboost-program-options1.71-dev:amd64 (1.71.0-6ubuntu6) ...\
+Selecting previously unselected package libboost-program-options-dev:amd64.\
+Preparing to unpack .../11-libboost-program-options-dev_1.71.0.0ubuntu2_amd64.de\
+b ...\
+Unpacking libboost-program-options-dev:amd64 (1.71.0.0ubuntu2) ...\
+Selecting previously unselected package libgmpxx4ldbl:amd64.\
+Preparing to unpack .../12-libgmpxx4ldbl_2%3a6.2.0+dfsg-4_amd64.deb ...\
+Unpacking libgmpxx4ldbl:amd64 (2:6.2.0+dfsg-4) ...\
+Selecting previously unselected package libgmp-dev:amd64.\
+Preparing to unpack .../13-libgmp-dev_2%3a6.2.0+dfsg-4_amd64.deb ...\
+Unpacking libgmp-dev:amd64 (2:6.2.0+dfsg-4) ...\
+Selecting previously unselected package libgmp3-dev:amd64.\
+Preparing to unpack .../14-libgmp3-dev_2%3a6.2.0+dfsg-4_amd64.deb ...\
+Unpacking libgmp3-dev:amd64 (2:6.2.0+dfsg-4) ...\
+Selecting previously unselected package libprocps-dev:amd64.\
+Preparing to unpack .../15-libprocps-dev_2%3a3.3.16-1ubuntu2.3_amd64.deb ...\
+Unpacking libprocps-dev:amd64 (2:3.3.16-1ubuntu2.3) ...\
+Selecting previously unselected package python3-pyparsing.\
+Preparing to unpack .../16-python3-pyparsing_2.4.6-1_all.deb ...\
+Unpacking python3-pyparsing (2.4.6-1) ...\
+Selecting previously unselected package python3-packaging.\
+Preparing to unpack .../17-python3-packaging_20.3-1_all.deb ...\
+Unpacking python3-packaging (20.3-1) ...\
+Selecting previously unselected package python3-markdown.\
+Preparing to unpack .../18-python3-markdown_3.1.1-3_all.deb ...\
+Unpacking python3-markdown (3.1.1-3) ...\
+Selecting previously unselected package python3-pygments.\
+Preparing to unpack .../19-python3-pygments_2.3.1+dfsg-1ubuntu2.2_all.deb ...\
+Unpacking python3-pygments (2.3.1+dfsg-1ubuntu2.2) ...\
+Setting up libboost1.71-dev:amd64 (1.71.0-6ubuntu6) ...\
+Setting up liberror-perl (0.17029-1) ...\
+Setting up python3-pygments (2.3.1+dfsg-1ubuntu2.2) ...\
+Setting up libgmpxx4ldbl:amd64 (2:6.2.0+dfsg-4) ...\
+Setting up python3-pyparsing (2.4.6-1) ...\
+Setting up libprocps-dev:amd64 (2:3.3.16-1ubuntu2.3) ...\
+Setting up librhash0:amd64 (1.3.9-1) ...\
+Setting up libcurl4:amd64 (7.68.0-1ubuntu2.7) ...\
+Setting up git-man (1:2.25.1-1ubuntu3.2) ...\
+Setting up cmake-data (3.16.3-1ubuntu1) ...\
+Setting up libjsoncpp1:amd64 (1.7.4-3.1ubuntu2) ...\
+Setting up libboost-program-options1.71.0:amd64 (1.71.0-6ubuntu6) ...\
+Setting up libboost-program-options1.71-dev:amd64 (1.71.0-6ubuntu6) ...\
+Setting up libgmp-dev:amd64 (2:6.2.0+dfsg-4) ...\
+Setting up python3-packaging (20.3-1) ...\
+Setting up libboost-program-options-dev:amd64 (1.71.0.0ubuntu2) ...\
+Setting up python3-markdown (3.1.1-3) ...\
+Setting up git (1:2.25.1-1ubuntu3.2) ...\
+Setting up libgmp3-dev:amd64 (2:6.2.0+dfsg-4) ...\
+Setting up cmake (3.16.3-1ubuntu1) ...\
+Processing triggers for man-db (2.9.1-1) ...\
+Processing triggers for libc-bin (2.31-0ubuntu9.2) ...\
+}
